@@ -6,4 +6,4 @@
 ## What's Changed
 * Added support for back move
 
-Based on [Checkers (Privacy Friendly) v1.3](https://github.com/SecUSo/privacy-friendly-dame/releases/tag/v1.3)
+Based on [Checkers (Privacy Friendly) v1.3.1](https://github.com/SecUSo/privacy-friendly-dame/releases/tag/v1.3.1)

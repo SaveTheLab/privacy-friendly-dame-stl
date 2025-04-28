@@ -17,11 +17,13 @@
 
 package org.secuso.privacyfriendlydame.game;
 
+import java.io.Serializable;
+
 /**
  * This class models a position of a square on the game board. The x and y coordinate values range
  * from 0 to 7.
  */
-public class Position {
+public class Position implements Serializable {
     // x and y coordinates of position
     final int x;
     final int y;

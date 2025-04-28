@@ -24,7 +24,7 @@ alt="Mobile Screenshot 3"
 width="120px"
 align="right" />
 
-It is based on on [Checkers (Privacy Friendly) v1.3](https://github.com/SecUSo/privacy-friendly-dame/releases/tag/v1.3) which belongs to the group of Privacy Friendly Apps developed by Technische Universität Darmstadt, Germany.
+It is based on on [Checkers (Privacy Friendly) v1.3.1](https://github.com/SecUSo/privacy-friendly-dame/releases/tag/v1.3.1) which belongs to the group of Privacy Friendly Apps developed by Technische Universität Darmstadt, Germany.
 
 This app is optimized regarding the user's privacy. It doesn't use any tracking mechanisms, neither it displays any advertisement. Also it does not use any permission, as the app can provide its full functionality without the usage of permissions. It also does neither include advertisement nor tracking mechanisms.
 

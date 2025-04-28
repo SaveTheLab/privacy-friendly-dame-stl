@@ -30,7 +30,7 @@ import java.util.Stack;
  * This class models a game of checkers. It contains information about the game board, the current
  * player, the game type and the captured pieces of both players.
  */
-public class CheckersGame implements Parcelable, Serializable{
+public class CheckersGame implements Parcelable, Serializable {
     public int searchDepth;
 
     static final int NONE = 0;

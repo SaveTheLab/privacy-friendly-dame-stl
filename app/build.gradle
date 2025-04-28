@@ -3,13 +3,14 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
 
 android {
-    compileSdk 34
+    compileSdk 35
+    namespace 'org.secuso.privacyfriendlydame'
     defaultConfig {
         applicationId "dev.savethelab.privacyfriendlydame"
         minSdkVersion 21
         targetSdkVersion 35
-        versionCode 3
-        versionName "1.0C"
+        versionCode 4
+        versionName "1.1A"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
     }
     buildTypes {
@@ -18,9 +19,31 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    buildFeatures {
+        buildConfig true
+    }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_17.toString()
+    }
+
+    kotlin {
+        jvmToolchain(17)
+    }
+
+    android.applicationVariants.configureEach { variant ->
+        variant.outputs.configureEach {
+            def appName = "pfa-dame"
+            outputFileName = appName + "-${variant.name}-v${variant.versionName}.apk"
+        }
+    }
+
+    lint {
+        lintConfig = file("lint.xml")
     }
 }
 

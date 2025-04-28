@@ -16,6 +16,7 @@
  */
 
 package org.secuso.privacyfriendlydame.game;
+import java.io.Serializable;
 import java.util.ArrayList;
 
 
@@ -24,7 +25,7 @@ import java.util.ArrayList;
  * position which is traversed as well as each position where an opposing piece is located which is
  * captured when that move is executed.
  */
-public class Move {
+public class Move implements Serializable {
     public ArrayList<Position> positions;
     public ArrayList<Position> capturePositions;
     private boolean kinged;
