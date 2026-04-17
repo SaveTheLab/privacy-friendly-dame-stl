@@ -79,7 +79,7 @@
 
 Privacy Friendly Checkers is a board game for one or two players.
 
-Privacy Friendly Checkers is part of the Privacy Friendly Apps group developed by the research group SECUSO at Technische Universität Darmstadt. More information at: https://secuso.org/pfa
+Privacy Friendly Checkers is part of the Privacy Friendly Apps group developed by the research group SECUSO at Karlsruhe Institue of Technologie. More information at: https://secuso.org/pfa
 
 [Changes][v1.0]
 
